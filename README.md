@@ -1,4 +1,4 @@
 # resumeweb
 
 ### I have built a resume website.
-![](Saved%20Pictures/Octocat.png)
+<img src="Saved%20Pictures/Octocat.png" width="50" height="100">
