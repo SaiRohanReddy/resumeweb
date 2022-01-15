@@ -1,5 +1,25 @@
 # resumeweb
 
 ### I have built a resume website.
-<img src="Saved%20Pictures/Octocat.png"  style="display:flex" width="50" height="100">
-<img src="Saved%20Pictures/quit.PNG" width="50" height="100">
+<div class="row">
+  <div class="column">
+    <img src="Saved%20Pictures/Octocat.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Saved%20Pictures/quit.PNG" alt="Forest" style="width:100%">
+  </div>
+<style>
+  .column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</div>
